@@ -1,9 +1,12 @@
 {
-  "name": "expensify",
+  "name": "expenses-application",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Andrew Mead",
+  "author": "Manoj Kumar",
   "license": "MIT",
+  "engines": {
+    "node": "8.1.2"
+  },
   "scripts": {
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
